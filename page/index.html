@@ -32,7 +32,7 @@
                   </span>
                </button>
             </div>
-            <a class="navbar-brand fw-bold" href="#"> <i class="bi-mortarboard fw-bold" style="color:#892CDC"></i> Oncourse.</a>
+            <a class="navbar-brand fw-bold" href="#"><i class="bi-mortarboard fw-bold" style="color:#892CDC"></i> Oncourse.</a>
             <div class="collapse navbar-collapse">
                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 justify-content-center">
                   <li class="nav-item">
@@ -317,22 +317,6 @@
             </div>
          </div>
       </div>
-
-      <script>
-         const loginForm = document.querySelector("#loginModal form");
-         const usernameInput = document.querySelector("#loginModal #username");
-         const passwordInput = document.querySelector("#loginModal #password");
-         const loginAlert = document.querySelector("#loginModal #login-alert");
-
-         loginForm.addEventListener("submit", function (event) {
-            if (usernameInput.value.trim() === "" || passwordInput.value.trim() === "") {
-               event.preventDefault();
-               loginAlert.style.display = "block";
-            } else {
-               loginAlert.style.display = "none";
-            }
-         });
-      </script>
 
       <script>
          // Script untuk menampilkan/menyembunyikan password
